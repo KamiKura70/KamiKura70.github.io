@@ -1,0 +1,36 @@
+html{
+    background-color: rgb(204, 204, 132);
+}
+
+*{
+    border: solid 1px rgb(101, 0, 77);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.titulo h1{
+    color: rgb(48, 9, 9);
+    font-family: "Doto", sans-serif;
+}
+
+.nav a{
+    color: aqua;
+    text-decoration: none;
+    background-color: brown;
+    padding: 1rem;
+    display: inline-block;
+    margin: 0.5rem
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
